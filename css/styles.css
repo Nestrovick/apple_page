@@ -1,0 +1,682 @@
+/* Estilização da barra de navegação */
+
+body {
+    padding-top: 30px; 
+}
+
+.nav-item {
+    padding: 0 10px !important;
+    padding-left: 20px;
+}
+
+.navbar-brand {
+    padding-left: 30px !important;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav li {
+    margin: 0 0px;
+}
+
+/* Estilização do carousel */
+.carousel-inner {
+    border: none; /* Remover a borda */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%); /* Inverte a cor dos ícones para branco */
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: rgb(112, 50, 219); /* Texto branco */
+}
+
+/* Estilização da seção da loja */
+.product-card {
+    position: relative;
+    margin-bottom: 10px; /* Reduzido o espaçamento entre os cards */
+    overflow: hidden;
+    border: 1px solid #e0e0e0; /* Borda ao redor do contêiner */
+    border-radius: 15px; /* Borda arredondada */
+    width: 100%;
+    max-width: 250px; /* Largura máxima do card */
+    transition: transform 0.3s; /* Efeito de transição para animação */
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.pd-l-5percent{
+    padding-left: 5%;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-card .product-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #774de9; /* Texto em branco */
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card .product-info h6,
+.product-card .product-info p {
+    margin: 0;
+    font-size: 14px; /* Tamanho da fonte do título e descrição */
+}
+
+.product-card .product-info p {
+    font-size: 12px; /* Tamanho da fonte da descrição */
+}
+
+/* Centralizar os cards */
+#carouselProducts .carousel-inner .row {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centraliza a row */
+}
+
+/* Estilização da seção Mac */
+#mac .card {
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.3s;
+}
+
+#mac .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#mac .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    height: 200px;
+}
+
+#mac .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#mac .card-text {
+    font-size: 1rem;
+}
+
+#mac .btn {
+    border-radius: 25px;
+}
+
+/* Estilização do botão Saiba Mais */
+#mac .btn-outline-dark {
+    border-color: #343a40;
+    color: #007bff;
+}
+
+#mac .btn-outline-dark:hover {
+    background-color: #343a40;
+    color: #fff;
+}
+
+/* Estilização do conteúdo Saiba Mais */
+#mac .collapse p {
+    font-size: 0.9rem;
+}
+
+/* Estilização do botão Comprar */
+#mac .btn-primary {
+    background-color: #007bff; /* Cor de fundo azul */
+    border-color: #007bff; /* Cor da borda azul */
+    color: #fff; /* Cor do texto branco */
+}
+
+#mac .btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda azul mais escura ao passar o mouse */
+}
+
+
+.container-fluid.text-center.py-5 h2,
+.container-fluid.text-center.py-5 p {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o background e espaçamento */
+#ipad {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+/* Estilo para o título */
+#ipad h2 {
+    color: #333;
+}
+
+/* Estilização do botão Comprar na seção iPad */
+#ipad .btn-primary {
+    background-color: #007bff; /* Cor de fundo azul */
+    border-color: #007bff; /* Cor da borda azul */
+    color: #fff; /* Cor do texto branco */
+}
+
+#ipad .btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda azul mais escura ao passar o mouse */
+}
+
+/* Estilo para as abas */
+.nav-tabs .nav-link {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    margin: 0 5px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Estilo para os botões */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para os cards */
+.card {
+    border: none;
+    margin-top: 20px;
+}
+
+.card-img-top {
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    height: 100%; /* Para garantir que a imagem ocupe toda a altura do card */
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+}
+
+  /* Estilo para a seção */
+  #iphone {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+/* Estilização do botão Comprar na seção iPhone */
+#iphone .btn-primary {
+    background-color: #007bff; /* Cor de fundo azul */
+    border-color: #007bff; /* Cor da borda azul */
+    color: #fff; /* Cor do texto branco */
+}
+
+#iphone .btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo azul mais escura ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda azul mais escura ao passar o mouse */
+}
+
+
+h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Estilo para o card */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para os cards de produtos */
+.card {
+    border-radius: 15px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que as imagens não ultrapassem as bordas arredondadas */
+}
+
+/* Estilo para o preço sobreposto na imagem */
+.card-price {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7); /* Fundo semi-transparente */
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Garante que o preço seja exibido acima do texto */
+.card-body {
+    position: relative;
+}
+
+/* Estilo para a seção de suporte */
+.support-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Estilo para as abas */
+.nav-tabs .nav-item .nav-link {
+    color: #333;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.nav-tabs .nav-item .nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Estilo para o conteúdo das abas */
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.tab-pane {
+    margin-top: 20px;
+}
+
+/* Estilo para o formulário de contato */
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact form label {
+    font-weight: bold;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form textarea {
+    resize: none;
+}
+
+#contact form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para as lojas */
+.store-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.store {
+    width: 48%; /* Define a largura das lojas para 48% do contêiner para deixar um pequeno espaço entre elas */
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#entretenimento {
+    padding-top: 80px;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    border-radius: 10px;
+}
+
+.video-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.modal-dialog {
+    max-width: 800px; /* Largura máxima do modal */
+}
+
+.modal-content {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.modal-header, .modal-footer {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 0;
+    position: relative;
+}
+
+.close {
+    color: #000;
+    opacity: 0.5;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fff;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.play-btn:hover {
+    opacity: 1;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#watch {
+    background-color: #343a40; /* Cor de fundo igual à do menu principal */
+    color: #fff;
+    padding: 80px 0;
+}
+
+#watch h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#watch p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-body {
+    padding: 20px;
+}
+
+.card i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card .btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.card .btn:hover {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.watch-img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Estilização do botão Saiba Mais na seção de Watch */
+#watch .btn {
+    border-color: #343a40; /* Cor da borda cinza igual à do botão na seção de Mac */
+    color: #007bff; /* Cor do texto azul igual à do botão na seção de Mac */
+}
+
+#watch .btn:hover {
+    background-color: #343a40; /* Cor de fundo cinza ao passar o mouse igual à do botão na seção de Mac */
+    color: #fff; /* Cor do texto branco ao passar o mouse igual à do botão na seção de Mac */
+}
+
+
+/* Estilos para o vídeo e container */
+.video-container {
+    position: relative;
+    max-width: 1500px; /* Largura máxima do vídeo */
+    margin: 0 auto; /* Centraliza o vídeo horizontalmente */
+}
+
+video {
+    width: 100%;
+    border-radius: 20px; /* Bordas arredondadas */
+}
+
+/* Estilos para o overlay */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+}
+
+.overlay h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os botões */
+.buttons .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.buttons .btn:hover {
+    background-color: white
+}
+
+.buttons .btn:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width 0.3s;
+}
+
+.buttons .btn:hover:after {
+    width: 100%;
+}
+
+ /* Estilo para a seção de TV e Casa */
+ #tv {
+    background-color: #ffffff; /* Fundo branco */
+}
+
+/* Estilo para o título */
+#tv h1 {
+    color: #000000; /* Texto preto */
+    font-size: 36px; /* Tamanho da fonte */
+    font-weight: bold; /* Espessura da fonte */
+}
+
+/* Estilo para os textos parágrafos e links */
+#tv p,
+#tv a {
+    color: #808080; /* Texto cinza claro */
+}
+
+/* Estilo para a linha abaixo do link ao passar o mouse */
+#tv a:hover {
+    text-decoration: underline; /* Linha abaixo do link */
+}
+
+/* Estilo para remover a caixa que se forma abaixo do link */
+#tv a {
+    display: inline-block; /* Transforma o link em bloco */
+    text-decoration: none; /* Remove a decoração de texto */
+}
+
+/* Estilo para os ícones das redes sociais */
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links li a {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.footer-links li a:hover {
+    color: #007bff;
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+.social-icon {
+    font-size: 24px;
+    margin: 0 3px; /* Reduzindo ainda mais a margem horizontal entre os ícones */
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+/* Estilo para os links do rodapé */
+.footer-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer-links li a {
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none; /* Remover sublinhado dos links */
+}
+
+.footer-links li a:hover {
+    color: #007bff;
+    text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+
+
+
+
+
+
+

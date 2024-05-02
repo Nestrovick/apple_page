@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fonts/fontsware/fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><i class="fa-brands fa-apple"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#loja">Mais vendidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mac">Mac</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ipad">iPad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#iphone">iPhone</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#watch">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#airpods">AirPods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tv">TV e casa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#entreterimento">Entreterimento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#suportes">Suportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <span id="cartCounter" class="badge bg-danger">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Home -->
+    <section id="home" class="container-fluid text-center py-5">
+        <h1>Bem-vindo ao Mundo Apple</h1>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>MacBook Pro</h5>
+                        <p>Design elegante e desempenho incrível.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Apple Watch</h5>
+                        <p>Pulseiras que fazem bonito. E são melhores para o ambiente.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ipad</h5>
+                        <p>Onde você está ele ira te acompanhar.</p>
+                    </div>
+                </div>
+            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <p>Descubra os melhores produtos e inovações</p>
+        <a href="#loja" class="btn btn-outline-dark btn-lg">Ver Produtos</a>
+    </section>
+
+    <!-- Loja -->
+    <section id="loja" class="container-fluid text-center py-5">
+        <h2>Destaques</h2>
+        <p>Produtos em destaque em nossa loja</p>
+        
+        <div id="carouselProducts" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center g-3"> 
+                        <!-- Produto 1 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p1.jfif" alt="Produto 1">
+                                <div class="product-info">
+                                    <p>IPHONE 15 PRO</p>
+                                    <h6>Titânio.</h6>
+                                    <p>A partir de R$ 9.299</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 2 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p2.jfif" alt="Produto 2">
+                                <div class="product-info">
+                                    <p>MACBOOK AIR</p>
+                                    <h6>Feito para acompanhar você.</h6>
+                                    <p>A partir de R$ 10.999</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 3 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p3.jfif" alt="Produto 3">
+                                <div class="product-info">
+                                    <p>APPLE WATC SERIES 9</p>
+                                    <h6>Brilha mais em tudo.</h6>
+                                    <p>A partir de R$ 4.999</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 4 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p4.jfif" alt="Produto 4">
+                                <div class="product-info">
+                                    <p>IPAD</p>
+                                    <h6>Inspira. Desenha. Diverte.</h6>
+                                    <p>A partir de R$ 4.999</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 5 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p5.jfif" alt="Produto 5">
+                                <div class="product-info">
+                                    <p>IPHONE 15</p>
+                                    <h6>Uauforia.</h6>
+                                    <p>A partir de R$ 7.299</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 6 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p6.jfif" alt="Produto 6">
+                                <div class="product-info">
+                                    <p>MACBOOK PRO</p>
+                                    <h6>Arrepia. Até na beleza.</h6>
+                                    <p>A partir de R$ 18.499</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 7 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p7.jfif" alt="Produto 7">
+                                <div class="product-info">
+                                    <p>APPLE WATCH ULTRA 2</p>
+                                    <h6>Sua próxima aventura.</h6>
+                                    <p>A partir de R$ 9.699</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produto 8 -->
+                        <div class="col-md-3 pd-l-5percent">
+                            <div class="product-card">
+                                <img src="images/p8.jfif" alt="Produto 8">
+                                <div class="product-info">
+                                    <p>IPAD PRO</p>
+                                    <h6>Com a potência do M2.</h6>
+                                    <p>A partir de R$ 9.799</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mac -->
+    <section id="mac" class="container-fluid text-center py-5">
+        <h2>Mac</h2>
+        <p>Diversidades de Mac</p>
+
+        <div class="row justify-content-center">
+
+            <!-- MacBook Air -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/m1.jpg" class="card-img-top" alt="MacBook Air">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Air</h5>
+                        <p class="card-text">O MacBook Air redefine o que é possível em um notebook fino e leve, com a incrívelmente tela Retina de 13,3 polegadas não deixando a desejar, Touch ID, teclado Magic Keyboard e o processador Apple M1 para desempenho incrível.</p>
+                        <button class="btn btn-outline-dark btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#macbookAirCollapse" aria-expanded="false" aria-controls="macbookAirCollapse">
+                            Saiba Mais
+                        </button>
+                        <button class="btn btn-primary btn-sm mt-2 addToCart" type="button">
+                            Comprar
+                        </button>
+                        <div class="collapse mt-3" id="macbookAirCollapse">
+                            <p>O novo MacBook Air é o equilíbrio perfeito entre potência e portabilidade. Equipado com a incrível tela Retina de 13,3 polegadas, você desfrutará de imagens nítidas e vibrantes. O Touch ID oferece segurança avançada, enquanto o teclado Magic Keyboard proporciona uma digitação confortável e precisa. Com o revolucionário chip Apple M1, este MacBook Air oferece desempenho excepcional para todas as suas tarefas, desde navegação na web até edição de vídeo. Além disso, o armazenamento SSD oferece velocidades de leitura e gravação ultrarrápidas, e a bateria de longa duração permite que você trabalhe o dia todo sem parar para recarregar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MacBook Pro -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/m2.jpg" class="card-img-top" alt="MacBook Pro">
+                    <div class="card-body">
+                        <h5 class="card-title">MacBook Pro</h5>
+                        <p class="card-text">O MacBook Pro oferece um novo nível de desempenho portátil com o surpreendente display Retina com True Tone, teclado Magic Keyboard, Touch Bar e Touch ID, processadores Intel de até 8 núcleos de última geração e gráficos poderosos.</p>
+                        <button class="btn btn-outline-dark btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#macbookProCollapse" aria-expanded="false" aria-controls="macbookProCollapse">
+                            Saiba Mais
+                        </button>
+                        <button class="btn btn-primary btn-sm mt-2 addToCart" type="button">
+                            Comprar
+                        </button>
+                        <div class="collapse mt-3" id="macbookProCollapse">
+                            <p>O MacBook Pro é o notebook ideal para profissionais criativos e usuários avançados que precisam de desempenho excepcional. Com o impressionante display Retina com True Tone, você desfrutará de cores vibrantes e imagens detalhadas. O teclado Magic Keyboard proporciona uma experiência de digitação confortável e precisa, enquanto a Touch Bar e o Touch ID oferecem funcionalidades avançadas e segurança aprimorada. Equipado com processadores Intel de até 8 núcleos de última geração e gráficos poderosos, o MacBook Pro é capaz de lidar com tarefas intensivas, como edição de vídeo 4K e design gráfico. Além disso, a bateria de longa duração e o sistema de refrigeração avançado garantem um desempenho consistente e confiável.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mac Mini -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/m3.jfif" class="card-img-top" alt="Mac Mini">
+                    <div class="card-body">
+                        <h5 class="card-title">Mac Mini</h5>
+                        <p class="card-text">O Mac mini é um computador desktop poderoso que pode ser personalizado para atender às suas necessidades de desempenho, com o chip Apple M1 que oferece desempenho impressionante, gráficos avançados e conectividade ultrarrápida.</p>
+                        <button class="btn btn-outline-dark btn-sm mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#macMiniCollapse" aria-expanded="false" aria-controls="macMiniCollapse">
+                            Saiba Mais
+                        </button>
+                        <button class="btn btn-primary btn-sm mt-2 addToCart" type="button">
+                            Comprar
+                        </button>
+                        <div class="collapse mt-3" id="macMiniCollapse">
+                            <p>O Mac mini é um computador desktop versátil e poderoso que oferece desempenho impressionante em um design compacto. Equipado com o chip Apple M1, o Mac mini oferece um desempenho excepcional para tarefas diárias, como navegação na web, edição de documentos e streaming de vídeo. Além disso, o Mac mini suporta até dois monitores 4K ou um monitor 6K para uma experiência de visualização expansiva. Com a conectividade ultrarrápida, incluindo Wi-Fi 6 e Ethernet de 10 Gb, o Mac mini permite que você se conecte facilmente a dispositivos externos e redes de alta velocidade. Com um design ecológico e eficiente em energia, o Mac mini é a escolha perfeita para usuários conscientes e ambientalmente responsáveis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- iPad -->
+      <section id="ipad" class="container-fluid text-center py-5">
+        <h2>iPad</h2>
+        <p>Descubra a versatilidade do iPad</p>
+    
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="ipadAir-tab" data-bs-toggle="tab" data-bs-target="#ipadAir" type="button" role="tab" aria-controls="ipadAir" aria-selected="true">iPad Air</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ipadPro-tab" data-bs-toggle="tab" data-bs-target="#ipadPro" type="button" role="tab" aria-controls="ipadPro" aria-selected="false">iPad Pro</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="ipadMini-tab" data-bs-toggle="tab" data-bs-target="#ipadMini" type="button" role="tab" aria-controls="ipadMini" aria-selected="false">iPad Mini</button>
+            </li>
+        </ul>
+    
+        <div class="tab-content mt-3" id="myTabContent">
+            <!-- iPad Air -->
+            <div class="tab-pane fade show active" id="ipadAir" role="tabpanel" aria-labelledby="ipadAir-tab">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/IP1.jpg" class="card-img-top img-fluid w-100" alt="iPad Air">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">iPad Air</h5>
+                                <p class="card-text">O iPad Air combina potência e portabilidade com o chip A14 Bionic, tela Liquid Retina de 10,9 polegadas e suporte ao Apple Pencil e Magic Keyboard.</p>
+                                <ul>
+                                    <li>Chip A14 Bionic com Neural Engine</li>
+                                    <li>Tela Liquid Retina de 10,9 polegadas</li>
+                                    <li>Touch ID integrado ao botão superior</li>
+                                    <li>Wi-Fi 6 e conexão Gigabit LTE</li>
+                                    <li>Compatível com Apple Pencil e Magic Keyboard</li>
+                                </ul>
+                                <p class="card-text"><strong>Preço: $6.000</strong></p>
+                                <button class="btn btn-primary btn-sm addToCart" type="button">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- iPad Pro -->
+            <div class="tab-pane fade" id="ipadPro" role="tabpanel" aria-labelledby="ipadPro-tab">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/IP2.jpg" class="card-img-top img-fluid w-100" alt="iPad Pro">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">iPad Pro</h5>
+                                <p class="card-text">O iPad Pro redefine o que um tablet é capaz de fazer com o chip M1, tela Liquid Retina XDR de 12,9 polegadas com tecnologia ProMotion e suporte ao Apple Pencil e Magic Keyboard.</p>
+                                <ul>
+                                    <li>Chip M1 para desempenho excepcional</li>
+                                    <li>Tela Liquid Retina XDR de 12,9 polegadas com ProMotion</li>
+                                    <li>Conectividade 5G para downloads rápidos e streaming em alta qualidade</li>
+                                    <li>Sistema de câmera Pro com Ultra Wide, Wide e LiDAR</li>
+                                    <li>Compatível com Apple Pencil de segunda geração e Magic Keyboard</li>
+                                </ul>
+                                <p class="card-text"><strong>Preço: $11.000</strong></p>
+                                <button class="btn btn-primary btn-sm addToCart" type="button">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- iPad Mini -->
+            <div class="tab-pane fade" id="ipadMini" role="tabpanel" aria-labelledby="ipadMini-tab">
+                <div class="card">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/IP3.jpg" class="card-img-top img-fluid w-100" alt="iPad Mini">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">iPad Mini</h5>
+                                <p class="card-text">O iPad Mini oferece desempenho em um design compacto, com chip A15 Bionic, tela Retina de 8,3 polegadas e suporte ao Apple Pencil (2ª geração).</p>
+                                <ul>
+                                    <li>Chip A15 Bionic com Neural Engine</li>
+                                    <li>Tela Retina de 8,3 polegadas com True Tone</li>
+                                    <li>Conector USB-C para carregamento rápido</li>
+                                    <li>Câmera traseira de 12 MP com Focus Pixels e gravação de vídeo em 4K</li>
+                                    <li>Compatível com Apple Pencil de segunda geração</li>
+                                </ul>
+                                <p class="card-text"><strong>Preço: $2.999</strong></p>
+                                <button class="btn btn-primary btn-sm addToCart" type="button">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- iPhone -->
+    <section id="iphone" class="py-5">
+        <div class="container text-center">
+            <h2>iPhone</h2>
+            <p>Os melhores iPhones do mercado, para atender às suas necessidades de tecnologia e estilo.</p>
+            <div class="row">
+                <!-- Primeira fileira de produtos -->
+                <div class="col-md-4">
+                    <div class="card mb-4 position-relative">
+                        <img src="images/iph1.jpg" class="card-img-top" alt="iPhone 11">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 11</h5>
+                            <p class="card-text">O iPhone 11 oferece desempenho rápido, câmeras de alta qualidade e uma tela Liquid Retina imersiva.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                            <p class="card-price position-absolute">R$2.300</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 position-relative">
+                        <img src="images/iph2.jpg" class="card-img-top" alt="iPhone 12">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 12</h5>
+                            <p class="card-text">O iPhone 12 apresenta um design elegante, conectividade 5G ultrarrápida e o poderoso chip A14 Bionic.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                            <p class="card-price position-absolute">R$3.400</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 position-relative">
+                        <img src="images/iph3.png" class="card-img-top" alt="iPhone 13">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 13</h5>
+                            <p class="card-text">O iPhone 13 oferece uma experiência avançada com uma tela Super Retina XDR, chip A15 Bionic e câmeras profissionais.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                            <p class="card-price position-absolute">R$3.800</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Segunda fileira de produtos -->
+                <div class="col-md-4">
+                    <div class="card mb-4 position-relative">
+                        <img src="images/iph4.jpg" class=card-img-top" alt="iPhone 14">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 14</h5>
+                            <p class="card-text">O iPhone 14 traz inovação em um design aprimorado, câmeras aprimoradas e uma experiência de usuário excepcional.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                            <p class="card-price position-absolute">R$4.100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 position-relative">
+                        <img src="images/iph5.jpg" class="card-img-top" alt="iPhone 15">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 15</h5>
+                            <p class="card-text">O iPhone 15 redefine a experiência móvel com tecnologia de ponta, desempenho incrível e recursos avançados.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                            <p class="card-price position-absolute">R$5.000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 position-relative">
+                        <img src="images/iph6.jpg" class="card-img-top" alt="iPhone 15 Pro">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 15 Pro</h5>
+                            <p class="card-text">O iPhone 15 Pro oferece recursos avançados, câmeras profissionais e um desempenho excepcional para usuários exigentes.</p>
+                            <button class="btn btn-primary">Comprar</button>
+                            <p class="card-price position-absolute">R$8.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Watch -->
+    <section id="watch" class="container-fluid text-center py-5">
+        <div class="container">
+            <img src="images/w1.jfif" alt="Apple Watch" class="watch-img">
+            <p class="description">O Apple Watch combina estilo e funcionalidade em um dispositivo incrivelmente poderoso. Mantenha-se conectado, monitore sua saúde e pratique atividades físicas com facilidade. Experimente o futuro no seu pulso.</p>
+            
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-truck"></i>
+                            <p>Frete grátis para todo o Brasil</p>
+                            <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="far fa-credit-card"></i>
+                            <p>Opções de pagamento</p>
+                            <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="fas fa-headset"></i>
+                            <p>Ajuda para comprar</p>
+                            <a href="#" class="btn">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- AirPods -->
+<section id="airpods" class="container-fluid text-center py-5">
+    <!-- Vídeo em loop com botões sobrepostos -->
+    <div class="video-container">
+        <video autoplay loop muted class="rounded">
+            <source src="images/v.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <h2>AirPods Pro</h2>
+            <div class="buttons">
+                <a href="#" class="btn btn-transparent">Comprar</a>
+                <a href="#" class="btn btn-transparent">Saiba mais</a>
+            </div>
+        </div>
+    </div>
+    <!-- Cards abaixo do vídeo -->
+    <div class="row justify-content-center">
+        <div class="col-lg-3">
+            <div class="card bg-transparent border-light">
+                <div class="card-body">
+                    <i class="fas fa-wifi text-dark"></i>
+                    <p class="text-dark">Conexão sem fio para total liberdade de movimento.</p>
+                    <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card bg-transparent border-light">
+                <div class="card-body">
+                    <i class="fas fa-battery-full text-dark"></i>
+                    <p class="text-dark">Bateria de longa duração para horas de uso contínuo.</p>
+                    <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="card bg-transparent border-light">
+                <div class="card-body">
+                    <i class="fas fa-music text-dark"></i>
+                    <p class="text-dark">Qualidade de som premium para uma experiência imersiva.</p>
+                    <a href="#" class="btn btn-outline-dark">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tv e Casa -->
+<section id="tv" class="container-fluid text-center py-5">
+    <div class="container">
+        <!-- Ícones e textos -->
+        <div class="row mb-4">
+            <div class="col">
+                <i class="fas fa-tv fa-2x"></i>
+                <p class="mt-2">Apple TV 4k</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-play fa-2x"></i>
+                <p class="mt-2">Apple TV App</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-tv fa-2x"></i>
+                <p class="mt-2">Apple TV+</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-home fa-2x"></i>
+                <p class="mt-2">App Casa</p>
+            </div>
+            <div class="col">
+                <i class="fas fa-mobile-alt fa-2x"></i>
+                <p class="mt-2">Acessórios</p>
+            </div>
+        </div>
+        <!-- Imagem 1 -->
+        <div class="row mb-4">
+            <div class="col text-center">
+                <img src="images/t1.png" alt="Apple TV" class="img-fluid">
+            </div>
+        </div>
+        <!-- Imagem 2 -->
+        <div class="row mb-4">
+            <div class="col text-center">
+                <img src="images/t2.jpg" alt="Apple TV" class="img-fluid">
+            </div>
+        </div>
+        <!-- Título e texto -->
+        <div class="row mb-4">
+            <div class="col">
+                <h1 class="display-4 text-center">Convide o futuro para entrar na sua casa.</h1>
+                <p class="lead text-center">Conecte seus aparelhos favoritos e transforme sua casa em um lar inteligente, prático e cheio de entretenimento. Controle as luzes com o iPhone, ouça música na TV e veja filmes com som e imagem de cinema. Tudo isso com a segurança e a privacidade que só a Apple oferece.</p>
+                <a href="#" class="btn btn-light">Assista ao filme Luck no Apple TV</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Entreterimento -->
+    <section id="entreterimento" class="container-fluid text-center py-5">
+        <h2 class="mb-4">Entretenimento</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="position-relative">
+                    <img src="images/v1.jpg" alt="Video 1" class="video-thumbnail" data-toggle="modal" data-target="#videoModal1">
+                    <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="position-relative">
+                    <img src="images/v2.jfif" alt="Video 2" class="video-thumbnail" data-toggle="modal" data-target="#videoModal2">
+                    <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="position-relative">
+                    <img src="images/v3.jfif" alt="Video 3" class="video-thumbnail" data-toggle="modal" data-target="#videoModal3">
+                    <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="position-relative">
+                    <img src="images/v4.webp" alt="Video 4" class="video-thumbnail" data-toggle="modal" data-target="#videoModal3">
+                    <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="position-relative">
+                    <img src="images/v5.jpg" alt="Video 5" class="video-thumbnail" data-toggle="modal" data-target="#videoModal3">
+                    <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="position-relative">
+                    <img src="images/v6.jpg" alt="Video 6" class="video-thumbnail" data-toggle="modal" data-target="#videoModal3">
+                    <div class="play-btn"><i class="fas fa-play-circle"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal 1 -->
+    <div class="modal fade" id="videoModal1" tabindex="-1" role="dialog" aria-labelledby="videoModal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal1Label">Apple Vision Pro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/IY4x85zqoJM?si=RBORSLqZ2vdz-yu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 2 -->
+    <div class="modal fade" id="videoModal2" tabindex="-1" role="dialog" aria-labelledby="videoModal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal2Label">HomePod</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/861Dt8Fy0IA?si=bdi3y7adtx4Ufbls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal 3 -->
+    <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="videoModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal3Label">Ipad mini</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/gdeqbg8QFJM?si=lSh0w38ZAMYb06t5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="videoModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal3Label">Apple card</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/JLE228ZuGGA?si=aOdzFkA8lwiSFg3T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="videoModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal3Label">Apple Watch Series 4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/lpXfQDK_uuw?si=XPMaSmOfnL7m_CHm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="videoModal3" tabindex="-1" role="dialog" aria-labelledby="videoModal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModal3Label">Ipad mini</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/hs1HoLs4SD0?si=Ng4gOIaV24WnCwp3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Suportes -->
+<section id="suportes" class="container-fluid text-center py-5">
+    <header>
+        <h1>Suporte Apple</h1>
+        <p>Estamos aqui para ajudar.</p>
+      </header>
+    
+      <section class="support-section">
+        <div class="container">
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="faq-tab" data-toggle="tab" href="#faq" role="tab" aria-controls="faq" aria-selected="true">Perguntas Frequentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="stores-tab" data-toggle="tab" href="#stores" role="tab" aria-controls="stores" aria-selected="false">Nossas Lojas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contato</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <!-- Conteúdo da aba "Perguntas Frequentes" -->
+                <div class="tab-pane fade show active" id="faq" role="tabpanel" aria-labelledby="faq-tab">
+                    <h2>Perguntas Frequentes</h2>
+                    <p>Confira abaixo algumas perguntas frequentes sobre a Apple:</p>
+                    <ul>
+                        <li>Como posso atualizar o sistema operacional do meu dispositivo Apple?</li>
+                        <li>Qual é a diferença entre iCloud e iTunes?</li>
+                        <li>Como faço para transferir arquivos entre meus dispositivos Apple?</li>
+                        <li>Quais são os benefícios de usar um ID Apple?</li>
+                        <li>É possível usar aplicativos do Windows em um dispositivo Apple?</li>
+                    </ul>
+                </div>
+                <!-- Conteúdo da aba "Nossas Lojas" -->
+                <div class="tab-pane fade" id="stores" role="tabpanel" aria-labelledby="stores-tab">
+                    <h2>Nossas Lojas</h2>
+                    <p>Encontre abaixo informações sobre duas de nossas lojas:</p>
+                    <div class="store-container">
+                        <div class="store">
+                            <h3>iPlace - Brasília Shopping</h3>
+                            <p>Setor Comercial Norte Quadra 05 BL A - Asa Norte, Brasília - DF, 70715-900</p>
+                            <!-- Mapa da Apple Store Rio de Janeiro -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3839.327506160635!2d-47.89162488844212!3d-15.786675822703558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3b02a101f8c1%3A0xc069261dcf575d8e!2siPlace%20-%20Bras%C3%ADlia%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1714329727971!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="store">
+                            <h3>iPlace - Shopping Iguatemi Brasília</h3>
+                            <p>QUADRA NORTE CA-04, BLOCO A LJ 67 TÉRREO, Brasília - DF, 71503-504</p>
+                            <!-- Mapa da Apple Store São Paulo -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3840.5996296975577!2d-47.88769698844335!3d-15.719387021051416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a39a10e850ca9%3A0xe6a69e18c9b48223!2siPlace%20-%20Shopping%20Iguatemi%20Bras%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1714329864772!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Conteúdo da aba "Contato" -->
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                    <h2>Contato</h2>
+                    <p>Preencha o formulário abaixo para entrar em contato conosco:</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea class="form-control" id="message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bootstrap JavaScript e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</section>
+
+
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Navegação de rolagem suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+    
+                // Toggle para abrir ou fechar a aba "Saiba Mais"
+                var saibaMais = document.getElementById('saiba-mais');
+                saibaMais.classList.toggle('aberto');
+            });
+        });
+    </script>
+    
+
+    <footer class="container-fluid text-center py-3 bg-dark text-white">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Apple</h5>
+                <p>Descubra os melhores produtos e inovações</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Links</h5>
+                <ul class="list-unstyled footer-links">
+                    <li><a href="#home" class="text-white">Home</a></li>
+                    <li><a href="#loja" class="text-white">Loja</a></li>
+                    <li><a href="#mac" class="text-white">Mac</a></li>
+                    <li><a href="#ipad" class="text-white">iPad</a></li>
+                    <li><a href="#iphone" class="text-white">iPhone</a></li>
+                    <li><a href="#watch" class="text-white">Watch</a></li>
+                    <li><a href="#airpods" class="text-white">AirPods</a></li>
+                    <li><a href="#tv" class="text-white">TV e Casa</a></li>
+                    <li><a href="#entreterimento" class="text-white">Entreterimento</a></li>
+                    <li><a href="#acessorios" class="text-white">Acessórios</a></li>
+                    <li><a href="#suportes" class="text-white">Suportes</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Redes Sociais</h5>
+                <ul class="list-unstyled d-flex justify-content-between">
+                    <li><a href="https://www.instagram.com/NESTROVICK_10/" target="_blank" class="text-white"><i class="fab fa-instagram fa-lg"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/danilo-nestrovick/" target="_blank" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                    <li><a href="https://github.com/Nestrovick" target="_blank" class="text-white"><i class="fab fa-github fa-lg"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <p>&copy; 2024 Apple Inc. Todos os direitos reservados por Danilo Luiz.</p>
+            </div>
+        </div>
+    </footer>
+    
+
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+
+<!-- 1- Navbar: Utilizado para criar uma barra de navegação responsiva no topo da página.
+     2- Container: Utilizado para envolver o conteúdo da página e centralizá-lo na tela.
+     3- Carousel: Utilizado para criar um carrossel de imagens em destaque na seção "Home".
+     4- Card: Utilizado para criar cartões de produto na seção "Loja" e na seção "Mac".
+     5- Collapse: Utilizado para criar seções de conteúdo expansíveis (saiba mais) dentro dos cards na seção "Mac". 
+     6- Navs e Tabs: Os botões de navegação na seção iPad e os links na seção de suporte estão estilizados como abas, usando as classes nav e nav-tabs do Bootstrap.
+     7- Cards: Os cartões (cards) são usados para exibir informações sobre os produtos em todas as seções. Eles usam a estrutura de cartão do Bootstrap.
+     8- Botões: Os botões "Comprar" são estilizados usando as classes de botão do Bootstrap, como btn e btn-primary.
+     9- Formulários: O formulário na seção de suporte para entrar em contato com a Apple utiliza as classes de formulário do Bootstrap, como form-group e form-control.
+     10- Responsividade: O layout é projetado para ser responsivo, usando classes como container-fluid, col-md-4, etc., para garantir que o site funcione bem em dispositivos de diferentes tamanhos.
+    11- Outros: Existem outras classes e componentes do Bootstrap usados para espaçamento (py-5, mt-3), alinhamento (text-center), imagens (img-fluid), entre outros.-->
+
+
+
+</body>
+
+</html>
